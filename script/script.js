@@ -26,6 +26,13 @@ $(document).ready(() => {
 		})
 	})
 
+	$('#dashboard').on('click', () =>{
+	$('#pagina').load('dashboard.html')
+
+		
+
+	})
+
 
 	//ajax
 	$('#competencia').on('change', e => {
